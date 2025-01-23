@@ -34,3 +34,23 @@ The service stores risks in memory and uses JSON for data exchange.
    ```bash
    git clone https://github.com/your-repo/risk_service.git
    cd risk_service
+2. Install dependencies:
+    ```bash
+    go mod tidy
+
+3. Run the service:
+    ```bash
+    go run main.go
+
+4. Access the endpoints on http://localhost:8080.
+
+### Steps to Test:
+1. Run the tests using the following command:
+   ```bash
+    go test ./tests/...
+
+2. Test cases include:
+   a. Create a risk.
+   b. Retrieve all risks.
+   c. Fetch a risk by ID.
+   d. Handle invalid inputs.
