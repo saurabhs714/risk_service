@@ -50,7 +50,7 @@ The service stores risks in memory and uses JSON for data exchange.
     go test ./tests/...
 
 2. Test cases include:
-   a. Create a risk.
-   b. Retrieve all risks.
-   c. Fetch a risk by ID.
-   d. Handle invalid inputs.
+   - Create a risk.
+   - Retrieve all risks.
+   - Fetch a risk by ID.
+   - Handle invalid inputs.
